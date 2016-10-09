@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Material Design</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_holder">Material Design.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem">erwehriweurhiewhriweh ii iuhiwheerCoordinatorLayout is very powerful but error-prone at first. If you are running into issues with coordinating behavior, check the following tips below:  The best example of how to use coordinator layout effectively is to refer carefully to the source code for cheesesquare. This repository is a sample repo kept updated by Google to reflect best practices with coordinating behaviors. In particular, see the layout for a tabbed ViewPager list and this for a layout for a detail view. Compare your code carefully to the cheesesquare source code. When coordinating between a fragment with a list of items inside of a ViewPager and a parent activity, you want to put the app:layout_behavior property on the ViewPager as outlined here so the scrolls within the pager are bubbled up and can be managed by the CoordinatorLayout. Note that you should not put that app:layout_behavior property anywhere within the fragment or the list within. Keep in mind that ScrollView does not work with CoordinatorLayout. You will need to use the NestedScrollView instead as shown in this example. Wrapping your content in the NestedScrollView and applying the app:layout_behavior property will cause the scrolling behavior to work as expected.</string>
+    <string name="action_filter">Filter</string>
+    <string name="title_first_section">Important Settings</string>
+    <string name="title_checkbox_preference">CheckBox</string>
+    <string name="title_edittext_preference">Type Your Name</string>
+    <string name="title_switch_preference">is Your Fav team Barcelona?</string>
+    <string name="summary_edittext_preference">Type your Fav Team</string>
+    <string name="dialog_title_edittext_preference">Your Fav Team</string>
+    <string name="title_second_section">Less Important Settings</string>
+    <string name="title_list_preference">Your Fav Team</string>
+    <string name="dialog_title_list_preference">Choose your Fav Team</string>
+</resources>
